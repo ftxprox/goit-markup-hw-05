@@ -582,6 +582,7 @@ h1,h2,h3,p{
     display: flex;
     flex-direction: column;
     transition: color 150ms ease-in-out;
+
 }
 
 textarea{
@@ -607,4 +608,7 @@ textarea{
 .privacy-policy-href{
     text-decoration: underline ;
     color: #4D5AE5;
+}
+.modal-item{
+    margin-bottom: 8px;
 }
