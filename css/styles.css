@@ -559,7 +559,7 @@ h1,h2,h3,p{
     border: none;
 }
 
-.form-subscribe {
+.form-subscribe{
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -567,22 +567,24 @@ h1,h2,h3,p{
     border: 1px solid #212121;
     max-width: 300px;
 }
-.form-button {
+.form-button{
     align-self: flex-start;
 }
-.form-input {
+
+
+.form-input-modal{
     padding: 4px;
     color: #212121;
     border: 1px solid #212121;
     border-radius: 4px;
 }
-.form-label {
+.form-label{
     display: flex;
     flex-direction: column;
     transition: color 150ms ease-in-out;
 }
 
-textarea {
+textarea{
     resize: none;
 }
 
