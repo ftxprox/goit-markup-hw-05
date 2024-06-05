@@ -585,3 +585,24 @@ h1,h2,h3,p{
 textarea {
     resize: none;
 }
+
+.button-send-subscribe{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.privacy-policy-href{
+    text-decoration: underline ;
+    color: #4D5AE5;
+}
