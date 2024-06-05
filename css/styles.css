@@ -559,7 +559,7 @@ h1,h2,h3,p{
     border: none;
 }
 
-.form {
+.form-subscribe {
     display: flex;
     flex-direction: column;
     gap: 12px;

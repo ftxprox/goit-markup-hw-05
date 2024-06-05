@@ -368,7 +368,7 @@
 <div class="modal-overlay">
     <div class="modal">
         <button type="button" class="modal-button-close"></button>
-        <form class="form" name="issue_report_form" autocomplete="off">
+        <form class="form-subscribe" name="subscribe_report_form" autocomplete="off">
             <label class="form-label">
                 Name
                 <input class="form-input" type="text" name="Name" autofocus />
@@ -384,7 +384,12 @@
                 <textarea class="form-input" name="description" placeholder="Text input" rows="10"></textarea>
             </label>
 
-            
+            <div class="form-field">
+                <input type="checkbox" name="I accept the terms and conditions of the Privacy Policy" value="policy" id="policy">
+                <label class="form-label" for="policy">I accept the terms and conditions of the<a href="">Privacy Policy</a></label>
+            </div>
+            </fieldset>
+
     </div>
 </div>
 </body>
