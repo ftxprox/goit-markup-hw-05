@@ -473,22 +473,35 @@ h1,h2,h3,p{
         background-color: #4d5ae5;
         border-radius: 4px;
         padding: 8px 24px;
-        width: 165px;
+        min-width: 165px;
+        cursor: pointer;
         height: 40px;
         color: #fff;
 }
 .footer-icon-telegram{
     fill: #fff;
+    margin-left: 16px;
 }
 .footer-info-text{
     
 }
-
+.form{
+    display: flex;
+    gap: 24px;
+}
 .form-input {
+    width: 264px;
+    height: 40px;
     padding: 8px;
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
+    color:#ffffff;
+    background-color: transparent;
     border-radius: 4px;
     font-family: inherit;
-    font-size: 16px;
+    font-size: 12px;
     outline: none;
+    line-height: 2px;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
